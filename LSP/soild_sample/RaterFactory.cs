@@ -20,7 +20,7 @@ namespace ArdalisRating
 
                 default:
                     // currently this can't be reached 
-                    return null;
+                    return new UnknownPolicyRater(engine, engine.Logger);
             }
         }
     }
