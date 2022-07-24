@@ -1,10 +1,10 @@
 using System.IO;
 
-namespace ArdalisRating
+namespace Rating
 {
     public class FilePolicySource
     {
-        public string GetPolicyFromSource()
+        public static string GetPolicyFromSource()
         {
             return File.ReadAllText("policy.json");
         }
