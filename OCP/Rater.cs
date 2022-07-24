@@ -1,4 +1,4 @@
-namespace ArdalisRating
+namespace Rating
 {
     public abstract class Rater
     {

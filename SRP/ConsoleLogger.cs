@@ -8,7 +8,7 @@ namespace Rating
         {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(message);
-            ColorConsole.clear();
+            Console.ResetColor();
         }
     }
 }

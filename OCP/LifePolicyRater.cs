@@ -1,6 +1,6 @@
 using System;
 
-namespace ArdalisRating
+namespace Rating
 {
     public class LifePolicyRater : Rater
     {

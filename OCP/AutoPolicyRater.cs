@@ -1,13 +1,10 @@
 using System;
 
-namespace ArdalisRating
+namespace Rating
 {
     public class AutoPolicyRater : Rater
     {
-        public AutoPolicyRater(RatingEngine engine, ConsoleLogger logger)
-            : base(engine, logger)
-        {
-        }
+        public AutoPolicyRater(RatingEngine engine, ConsoleLogger logger) : base(engine, logger) { }
 
         public override void Rate(Policy policy)
         {

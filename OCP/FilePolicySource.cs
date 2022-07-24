@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace ArdalisRating
+namespace Rating
 {
     public class FilePolicySource
     {
