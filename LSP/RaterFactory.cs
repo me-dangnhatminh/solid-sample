@@ -1,4 +1,4 @@
-namespace ArdalisRating
+namespace Rating
 {
     public class RaterFactory
     {
@@ -10,7 +10,7 @@ namespace ArdalisRating
                     return new AutoPolicyRater(engine, engine.Logger);
 
                 case PolicyType.Flood:
-                    return new FloodPolicyRater(engine, engine.Logger);
+                    return new FloodPolicyRater(engine, engine.Logger); 
 
                 case PolicyType.Land:
                     return new LandPolicyRater(engine, engine.Logger);

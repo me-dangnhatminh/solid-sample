@@ -1,8 +1,7 @@
 using System;
 
-namespace ArdalisRating
+namespace Rating
 {
-
     public enum PolicyType
     {
         Life = 0,
