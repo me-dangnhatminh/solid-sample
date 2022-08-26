@@ -31,7 +31,7 @@ namespace Rating
 //     try
 //     {
 //         return (Rater)Activator.CreateInstance(
-//             Type.GetType($"ArdalisRating.{policy.Type}PolicyRater"),
+//             Type.GetType($"Rating.{policy.Type}PolicyRater"),
 //                 new object[] { engine, engine.Logger });
 //     }
 //     catch
